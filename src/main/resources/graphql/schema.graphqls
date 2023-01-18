@@ -1,0 +1,9 @@
+type Query {
+    accountEntity: [AccountEntity]
+}
+type AccountEntity {
+    id: ID!
+    fname: String!
+    lname: String!
+    email: String!
+}

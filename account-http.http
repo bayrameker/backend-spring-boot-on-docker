@@ -1,0 +1,48 @@
+GET http://localhost:8008/api/account?email=test2&password=test2
+Accept: application/json
+
+###
+POST http://localhost:8008/api/account/addSocialMedia
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "Facebook",
+  "platform": "https://www.facebook.com/",
+  "url": "https://www.facebook.com/"
+}
+
+
+test
+
+
+kmk
+###
+
+POST http://localhost:8008/api/account/addTask
+Content-Type: application/json
+
+{
+  "id": 1,
+  "date": 1234,
+  "title": "Remember me!",
+  "description": "Have to wake up for meeting at noon. Wake me up."
+}
+
+###
+GET http://localhost:8008/api/account?email=test&password=test
+Accept: application/json
+
+###
+POST http://localhost:8008/api/account
+Content-Type: application/json
+
+{
+  "fName": "Dinh",
+  "lName": "Lor",
+  "email": "test2",
+  "password": "test2",
+  "bDate": 1234
+}
+
+###
